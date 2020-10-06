@@ -1,0 +1,12 @@
+
+#mainContainer{
+ width: 100%;
+    display: flex
+}
+
+#command, 
+#komand {
+
+width: 9%;
+ 
+}

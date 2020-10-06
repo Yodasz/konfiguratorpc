@@ -1,0 +1,2 @@
+# konfiguratorPC
+# konfiguratorpc
