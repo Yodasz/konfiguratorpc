@@ -1,0 +1,107 @@
+body {background-color: brown
+}
+
+#mainboard {
+    background-image: url("../img/667859_2_i1064.jpg") ;
+    background-size: contain;
+    width:1000px;
+    height: 900px;
+    background-repeat: no-repeat;
+
+
+}
+#cpu,
+#ram,
+#gniazda,
+#pcie,
+#sata
+
+{
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/drawing-1.svg");
+    position: absolute;
+    top: 220px;
+    left: 370px;
+}
+#ram{
+        top:220px;
+        left: 600px;
+    }
+#gniazda {
+    top: 200px;
+    left: 100px;
+
+}
+#pcie {
+    top: 700px;
+    left: 300px;
+
+
+
+}
+#sata {
+    top: 350px;
+    left: 700px;
+
+
+
+}
+
+#cpu .tooltiptext,
+#ram .tooltiptext,
+#gniazda .tooltiptext,
+#pcie .tooltiptext,
+#sata .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+#cpu:hover .tooltiptext  {
+    visibility: visible;
+}
+#ram:hover .tooltiptext  {
+    visibility: visible;
+}
+#gniazda:hover .tooltiptext  {
+    visibility: visible;
+}
+#pcie:hover .tooltiptext  {
+    visibility: visible;
+}
+#sata:hover .tooltiptext  {
+    visibility: visible;
+}
+
+#frycel{
+display: flex;
+    width: 100%;}
+
+ #frych{
+
+     width: 50%;
+ }
+
+#fresk
+{
+    width: 50%;
+
+}
+
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
